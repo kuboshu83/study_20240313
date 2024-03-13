@@ -72,3 +72,5 @@ var result = offset.Value + age.Value;
 商品の価格を計算するために使用するクラス。
 プリミティブ値に代わって、
 価格の計算用クラス(PriceValue)と個数算出用クラス(CountValue)を作成して使用している。
+
+![overview_price](docs/figures/overview_price.png)
