@@ -14,7 +14,7 @@ public class MemoryAddress : IAddressCalculable
 		Value = value;
 	}
 
-	public MemoryAddress Increment(IAddressCalculable other)
+	public MemoryAddress Increment<T>(T other) where T : IAddressCalculable
 		=> new MemoryAddress(
 			this.Value.Add(other.Value)
 			);
